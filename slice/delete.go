@@ -1,7 +1,6 @@
 package slice
 
 import (
-	"fmt"
 	"github.com/tao-xiaoxin/go-tools/errors"
 )
 
@@ -14,7 +13,6 @@ func Delete[T any](slice []T, index int) ([]T, T, error) {
 		var zero T
 		return nil, zero, errors.NewErrIndexOutOfRange(length, index)
 	}
-	fmt.Println("Element:", slice[index])
 	ele := slice[index]
 	return append(slice[:index], slice[index+1:]...), ele, nil
 }
