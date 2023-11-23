@@ -11,3 +11,8 @@ func NewErrIndexOutOfRange(length int, index int) error {
 func NewErrValueNotFound[T any](args []T, value T) error {
 	return fmt.Errorf("go-tools: %v not found in %v", value, args)
 }
+
+// NewErrSliceIsEmpty 创建一个代表切片为空的错误
+func NewErrSliceIsEmpty() error {
+	return fmt.Errorf("go-tools: slice is empty")
+}
