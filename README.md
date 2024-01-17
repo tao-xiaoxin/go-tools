@@ -1,6 +1,5 @@
 # go-tools
 [![Go Report Card](https://goreportcard.com/badge/github.com/leoppro/go-tools)](https://goreportcard.com/report/github.com/leoppro/go-tools)
-[![Build Status](https://travis-ci.org/leoppro/go-tools.svg?branch=main)](https://travis-ci.org/leoppro/go-tools)
 [![codecov](https://codecov.io/gh/leoppro/go-tools/branch/master/graph/badge.svg)](https://codecov.io/gh/leoppro/go-tools)
 [![GoDoc](https://godoc.org/github.com/leoppro/go-tools?status.svg)](https://godoc.org/github.com/leoppro/go-tools)
 [![GitHub release](https://img.shields.io/github/release/leoppro/go-tools.svg)]()
